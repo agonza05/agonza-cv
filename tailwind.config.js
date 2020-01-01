@@ -6,6 +6,7 @@ module.exports = {
       primary: colors.teal,
       secondary: colors.red,
       neutral: colors.gray,
+      white: '#FFF',
     },
     extend: {},
   },

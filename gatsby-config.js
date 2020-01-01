@@ -5,5 +5,15 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-postcss`],
+  plugins: [
+    'gatsby-transformer-json',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/data/`,
+      },
+    },
+    `gatsby-plugin-postcss`
+  ],
 };
