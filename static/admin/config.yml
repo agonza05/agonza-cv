@@ -37,8 +37,8 @@ collections:
               - { label: Role, name: role, widget: string }
               - { label: Company, name: company, widget: string }
               - { label: Description, name: description, widget: text }
-              - { label: "Start date", name: start, widget: date }
-              - { label: "End date", name: end, widget: date, required: false }
+              - { label: "Start date", name: start, widget: date, format: 'MM/YYYY' }
+              - { label: "End date", name: end, widget: date, required: false, format: 'MM/YYYY' }
           - label: Projects
             name: projects
             widget: list
@@ -65,8 +65,8 @@ collections:
             fields:
               - { label: Institution, name: institution, widget: string }
               - { label: degree, name: Degree, widget: string }
-              - { label: "Start date", name: start, widget: date }
-              - { label: "End date", name: end, widget: date, required: false }
+              - { label: "Start date", name: start, widget: date, format: 'YYYY' }
+              - { label: "End date", name: end, widget: date, required: false, format: 'YYYY' }
           - label: "Sidebar lists"
             name: sidebar
             widget: list

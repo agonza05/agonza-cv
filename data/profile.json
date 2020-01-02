@@ -34,8 +34,8 @@
     {
       "institution": "Middle East Technical University, Turkey",
       "Degree": "Geological Engineering",
-      "start": "2014-01-01T22:00:00.000Z",
-      "end": "2006-01-01T22:00:00.000Z"
+      "start": "2014",
+      "end": "2006"
     }
   ],
   "experience": [
@@ -43,8 +43,8 @@
       "role": "Full Stack Tech Lead",
       "company": "Malaeb Limited",
       "description": "Malaeb is a group sports community and booking platform. I designed a new solution to migrate the old app into a new platform.",
-      "start": "2016-02-03T06:08:53.410Z",
-      "end": "2020-01-02T06:08:53.445Z"
+      "start": "02/2016",
+      "end": "01/2020"
     }
   ],
   "social": [
