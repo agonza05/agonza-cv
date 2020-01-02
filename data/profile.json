@@ -1,6 +1,84 @@
 {
-  "fullname": "Baran Cezayirli",
+  "contact": {
+    "phone": "+380 63 251 76 44",
+    "email": "contact@barancezayirli.com",
+    "website": "https://barancezayirli.com",
+    "location": "Kiev, Ukraine"
+  },
+  "skills": [
+    {
+      "title": "Technical",
+      "Type": "percent",
+      "subskills": [
+        {
+          "Name": "Architecture",
+          "percent": 45
+        }
+      ]
+    },
+    {
+      "title": "Frameworls",
+      "Type": "tag",
+      "subskills": [
+        {
+          "Name": "React"
+        },
+        {
+          "Name": "Flutter"
+        }
+      ]
+    }
+  ],
+  "summary": "With 10+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
+  "education": [
+    {
+      "institution": "Middle East Technical University, Turkey",
+      "Degree": "Geological Engineering",
+      "start": "2014-01-01T22:00:00.000Z",
+      "end": "2006-01-01T22:00:00.000Z"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Tech Lead",
+      "company": "Malaeb Limited",
+      "description": "Malaeb is a group sports community and booking platform. I designed a new solution to migrate the old app into a new platform.",
+      "start": "2016-02-03T06:08:53.410Z",
+      "end": "2020-01-02T06:08:53.445Z"
+    }
+  ],
+  "social": [
+    {
+      "service": "linkedin",
+      "url": "https://www.linkedin.com/in/barancezayirli"
+    },
+    {
+      "service": "twitter",
+      "url": "https://twitter.com/barancezayirli"
+    },
+    {
+      "service": "facebook",
+      "url": "https://www.facebook.com/barancezayirli"
+    }
+  ],
   "role": "Technologist",
-  "summary": "description here",
-  "skills": []
+  "projects": [
+    {
+      "name": "Gatsby resume starter",
+      "company": "Open source",
+      "description": "Some description here",
+      "Link": "https://barancezayirli.com"
+    }
+  ],
+  "fullname": "Baran Cezayirli",
+  "sidebar": [
+    {
+      "title": "Interests",
+      "Items": [
+        "Lego",
+        "IoT",
+        "Gaming"
+      ]
+    }
+  ]
 }
