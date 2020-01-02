@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    'gatsby-plugin-netlify-cms',
     `gatsby-plugin-postcss`
   ],
 };

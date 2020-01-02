@@ -1,0 +1,30 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: content
+    label: Content
+    files:
+      - label: Resume
+        name: resume
+        file: "data/profile.json"
+        fields:
+          - { label: "Full Name", name: fullname, widget: string }
+          - { label: Role, name: role, widget: string }
+          - { label: Summary, name: summary, widget: text }
+          - label: Skills
+            name: skills
+            widget: list
+            fields:
+              - { label: title, name: title, widget: string }
+              - { label: type, name: Type, widget: select, options: [percent, tag] }
+              - label: Subskills
+                name: subskills
+                widget: list
+                fields:
+                  - { label: name, name: Name, widget: string }
+                  - { label: Percent, name: percent, widget: number, required: false }
+
