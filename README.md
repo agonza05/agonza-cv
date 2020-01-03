@@ -3,4 +3,3 @@
 </h1>
 
 A resume template easy to customize!
-

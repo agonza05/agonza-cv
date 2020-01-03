@@ -74,11 +74,7 @@
   "sidebar": [
     {
       "title": "Interests",
-      "Items": [
-        "Lego",
-        "IoT",
-        "Gaming"
-      ]
+      "Items": ["Lego", "IoT", "Gaming"]
     }
   ]
 }

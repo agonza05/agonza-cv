@@ -17,6 +17,7 @@
     "gatsby": "^2.18.12",
     "gatsby-plugin-netlify-cms": "^4.1.33",
     "gatsby-plugin-postcss": "^2.1.18",
+    "gatsby-plugin-react-svg": "^2.1.2",
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-json": "^2.2.22",
     "netlify-cms-app": "^2.10.1",

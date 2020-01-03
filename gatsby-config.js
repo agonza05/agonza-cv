@@ -14,7 +14,15 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/,
+        },
+      },
+    },
     'gatsby-plugin-netlify-cms',
-    `gatsby-plugin-postcss`
+    `gatsby-plugin-postcss`,
   ],
 };

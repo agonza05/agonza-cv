@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
+
+.contact-icon {
+    @apply fill-current w-4 h-4 mr-4 text-secondary-500;
+}
+
+.contact-link {
+    @apply text-sm;
+}
+
+.contact-link:hover {
+    @apply text-secondary-500;
+}
+
 @tailwind utilities;

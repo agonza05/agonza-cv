@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { Header } from '../components';
 import '../main.css';
 
 const Home = ({ data }) => {
@@ -7,12 +8,16 @@ const Home = ({ data }) => {
   console.log(resume);
   return (
     <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen p-5">
-      <div className="container mx-auto shadow bg-white">
-        Hello World
+      <div className="container mx-auto shadow bg-white p-6">
+        <Header
+          contacts={resume.contact}
+          name={resume.fullname}
+          role={resume.role}
+        />
       </div>
     </main>
   );
-}
+};
 
 export const query = graphql`
   {
@@ -21,9 +26,9 @@ export const query = graphql`
         node {
           contact {
             email
-            location
             phone
             website
+            location
           }
           education {
             Degree
@@ -67,6 +72,6 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 export default Home;
