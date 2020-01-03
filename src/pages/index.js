@@ -1,13 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Header, Summary } from '../components';
+import { Header, Summary, Experience } from '../components';
 import '../main.css';
 
 const Home = ({ data }) => {
   const resume = data.allDataJson.edges[0].node;
   console.log(resume);
   return (
-    <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen p-5">
+    <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
       <div className="container mx-auto shadow bg-white p-6">
         <Header
           contacts={resume.contact}
@@ -15,6 +15,9 @@ const Home = ({ data }) => {
           role={resume.role}
         />
         <Summary data={resume.summary} />
+        <div className="my-5 lg:flex lg:w-2/3">
+          <Experience data={resume.experience} />
+        </div>
       </div>
     </main>
   );
