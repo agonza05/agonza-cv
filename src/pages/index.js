@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Header } from '../components';
+import { Header, Summary } from '../components';
 import '../main.css';
 
 const Home = ({ data }) => {
@@ -14,6 +14,7 @@ const Home = ({ data }) => {
           name={resume.fullname}
           role={resume.role}
         />
+        <Summary data={resume.summary} />
       </div>
     </main>
   );
