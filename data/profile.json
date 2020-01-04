@@ -10,78 +10,192 @@
       "title": "General",
       "type": "percent",
       "subskills": [
-        { "name": "Architecture", "percent": 89 },
-        { "name": "Mobile/Web App Development", "percent": 95 },
-        { "name": "Product Management", "percent": 85 },
-        { "name": "Project Management", "percent": 92 },
-        { "name": "Game Development", "percent": 70 },
-        { "name": "Blockchain", "percent": 85 },
-        { "name": "Dev Ops", "percent": 81 },
-        { "name": "Backend Development", "percent": 93 },
-        { "name": "Data Science", "percent": 65 },
-        { "name": "Artificial Intelligence", "percent": 70 },
-        { "name": "UX", "percent": 80 }
+        {
+          "name": "Architecture",
+          "percent": 89
+        },
+        {
+          "name": "Mobile/Web App Development",
+          "percent": 95
+        },
+        {
+          "name": "Product Management",
+          "percent": 85
+        },
+        {
+          "name": "Project Management",
+          "percent": 92
+        },
+        {
+          "name": "Game Development",
+          "percent": 70
+        },
+        {
+          "name": "Blockchain",
+          "percent": 85
+        },
+        {
+          "name": "Dev Ops",
+          "percent": 81
+        },
+        {
+          "name": "Backend Development",
+          "percent": 93
+        },
+        {
+          "name": "Data Science",
+          "percent": 65
+        },
+        {
+          "name": "Artificial Intelligence",
+          "percent": 70
+        },
+        {
+          "name": "UX",
+          "percent": 80
+        }
       ]
     },
     {
       "title": "Languages",
       "type": "percent",
       "subskills": [
-        { "name": "Javascript", "percent": 96 },
-        { "name": "Java", "percent": 82 },
-        { "name": "Python", "percent": 85 },
-        { "name": "C#", "percent": 74 },
-        { "name": "Solidity", "percent": 85 },
-        { "name": "Dart", "percent": 75 },
-        { "name": "Go", "percent": 60 }
+        {
+          "name": "Javascript",
+          "percent": 96
+        },
+        {
+          "name": "Java",
+          "percent": 82
+        },
+        {
+          "name": "Python",
+          "percent": 85
+        },
+        {
+          "name": "C#",
+          "percent": 74
+        },
+        {
+          "name": "Solidity",
+          "percent": 85
+        },
+        {
+          "name": "Dart",
+          "percent": 75
+        },
+        {
+          "name": "Go",
+          "percent": 60
+        }
       ]
     },
     {
       "title": "Frameworks",
       "type": "tag",
       "subskills": [
-        { "name": "React" },
-        { "name": "Flutter" },
-        { "name": "React Native" },
-        { "name": "Vue" },
-        { "name": "Spring" },
-        { "name": "Angular" },
-        { "name": "Electron" },
-        { "name": "Node" },
-        { "name": "Flusk" },
-        { "name": "Express" },
-        { "name": "Koa" },
-        { "name": "Gatsby" },
-        { "name": "Apollo" },
-        { "name": "Django" },
-        { "name": "Loopback" },
-        { "name": "Next" },
-        { "name": "Amplify" },
-        { "name": "Pixi" },
-        { "name": "Phaser" },
-        { "name": "Feathers" }
+        {
+          "name": "React"
+        },
+        {
+          "name": "Flutter"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Vue"
+        },
+        {
+          "name": "Spring"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "Electron"
+        },
+        {
+          "name": "Node"
+        },
+        {
+          "name": "Flusk"
+        },
+        {
+          "name": "Express"
+        },
+        {
+          "name": "Koa"
+        },
+        {
+          "name": "Gatsby"
+        },
+        {
+          "name": "Apollo"
+        },
+        {
+          "name": "Django"
+        },
+        {
+          "name": "Loopback"
+        },
+        {
+          "name": "Next"
+        },
+        {
+          "name": "Amplify"
+        },
+        {
+          "name": "Pixi"
+        },
+        {
+          "name": "Phaser"
+        },
+        {
+          "name": "Feathers"
+        }
       ]
     },
     {
       "title": "Software",
       "type": "tag",
       "subskills": [
-        { "name": "Docker" },
-        { "name": "Jira" },
-        { "name": "Unity" },
-        { "name": "Godot" },
-        { "name": "Google Analytics" }
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "Jira"
+        },
+        {
+          "name": "Unity"
+        },
+        {
+          "name": "Godot"
+        },
+        {
+          "name": "Google Analytics"
+        }
       ]
     },
     {
       "title": "Databases",
       "type": "tag",
       "subskills": [
-        { "name": "Postgresql" },
-        { "name": "Mongodb" },
-        { "name": "Parse" },
-        { "name": "Firebase" },
-        { "name": "Elastic Search" }
+        {
+          "name": "Postgresql"
+        },
+        {
+          "name": "Mongodb"
+        },
+        {
+          "name": "Parse"
+        },
+        {
+          "name": "Firebase"
+        },
+        {
+          "name": "Elastic Search"
+        }
       ]
     }
   ],
