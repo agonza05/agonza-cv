@@ -7,7 +7,7 @@ Gatsby resume tailwind is a free starter template with  Netlify CMS as headless 
 
 [Demo](https://gatsby-resume-starter.netlify.com/)
 
-[Customization and Theming](https://barancezayirli/free-gatsby-resume-starter-with-netlify-cms/#widgets-and-blocks)
+[Customization and Theming](https://barancezayirli.com/free-gatsby-resume-starter-with-netlify-cms/#customization)
 
 ## Features
 
@@ -46,7 +46,7 @@ gatsby develop
 
 The resume content is generated from `data/profile.json` file. You can manually edit this file or setup Netlify CMS for online editing.
 
-You can find more information on resume widgets and theming [here](https://barancezayirli/free-gatsby-resume-starter-with-netlify-cms/#widgets-and-blocks).
+You can find more information on resume widgets and theming [here](https://barancezayirli.com/free-gatsby-resume-starter-with-netlify-cms/#customization).
 
 ### Netlify CMS as Headless CMS
 
