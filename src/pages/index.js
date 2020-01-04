@@ -1,11 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Header, Summary, Experience, Projects } from "../components"
+import { Header, Summary, Experience, Projects, Skills } from '../components';
 import '../main.css';
 
 const Home = ({ data }) => {
   const resume = data.allDataJson.edges[0].node;
-  console.log(resume);
   return (
     <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
       <div className="container mx-auto shadow bg-white py-5 px-10">
@@ -16,9 +15,12 @@ const Home = ({ data }) => {
         />
         <Summary data={resume.summary} />
         <div className="border-b border-neutral-300 pb-2 my-5 lg:flex">
-          <div className="lg:w-2/3">
+          <div className="lg:w-2/3 lg:pr-8">
             <Experience data={resume.experience} />
             <Projects data={resume.projects} />
+          </div>
+          <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
+            <Skills data={resume.skills} />
           </div>
         </div>
       </div>
@@ -38,7 +40,7 @@ export const query = graphql`
             location
           }
           education {
-            Degree
+            degree
             end
             institution
             start
@@ -52,21 +54,21 @@ export const query = graphql`
           }
           fullname
           projects {
-            Link
+            link
             company
             description
             name
           }
           role
           sidebar {
-            Items
+            items
             title
           }
           skills {
-            Type
+            type
             title
             subskills {
-              Name
+              name
               percent
             }
           }
