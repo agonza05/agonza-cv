@@ -29,7 +29,7 @@ collections:
             widget: list
             required: false
             fields:
-              - { label: Service, name: service, widget: select, options: [linkedin, twitter, facebook, youtube, instagram, behance, github, dribbble]}
+              - { label: Service, name: service, widget: select, options: [linkedin, twitter, facebook, youtube, instagram, behance, github, dribbble, angellist]}
               - { label: URL, name: url, widget: string }
           - label: Experience
             name: experience

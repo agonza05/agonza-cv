@@ -267,6 +267,10 @@
   ],
   "social": [
     {
+      "service": "youtube",
+      "url": "https://www.youtube.com/channel/UCczRc31u_YXNiSpYKxQU_Ug"
+    },
+    {
       "service": "linkedin",
       "url": "https://www.linkedin.com/in/barancezayirli"
     },
@@ -275,8 +279,20 @@
       "url": "https://twitter.com/barancezayirli"
     },
     {
+      "service": "angellist",
+      "url": "https://angel.co/baran-cezayirli"
+    },
+    {
+      "service": "github",
+      "url": "https://github.com/barancezayirli"
+    },
+    {
       "service": "facebook",
       "url": "https://www.facebook.com/barancezayirli"
+    },
+    {
+      "service": "instagram",
+      "url": "https://www.instagram.com/barancezayirli"
     }
   ],
   "role": "Technologist",
