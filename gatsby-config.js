@@ -49,5 +49,12 @@ module.exports = {
     },
     'gatsby-plugin-netlify-cms',
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+        tailwind: true, // Enable tailwindcss support
+      }
+    }
   ],
 };
