@@ -1,5 +1,4 @@
 import React from 'react';
-import { graphql } from 'gatsby';
 import {
   Header,
   Summary,
@@ -9,9 +8,10 @@ import {
   List,
   Education,
 } from '../components';
+import data from '../../data/profile';
 import '../main.css';
 
-const Home = ({ data }) => {
+const Home = () => {
   const resume = data.allDataJson.edges[0].node;
   return (
     <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
@@ -30,69 +30,15 @@ const Home = ({ data }) => {
           <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
             {resume.skills && <Skills data={resume.skills} />}
             {resume.education && <Education data={resume.education} />}
-            {resume.sidebar && resume.sidebar.map(item => (
-              <List key={`${item.title}-side`} data={item} />
-            ))}
+            {resume.sidebar &&
+              resume.sidebar.map(item => (
+                <List key={`${item.title}-side`} data={item} />
+              ))}
           </div>
         </div>
       </div>
     </main>
   );
 };
-
-export const query = graphql`
-  {
-    allDataJson {
-      edges {
-        node {
-          contact {
-            email
-            phone
-            website
-            location
-          }
-          education {
-            degree
-            end
-            institution
-            start
-          }
-          experience {
-            company
-            description
-            role
-            end
-            start
-          }
-          fullname
-          projects {
-            link
-            company
-            description
-            name
-          }
-          role
-          sidebar {
-            items
-            title
-          }
-          skills {
-            type
-            title
-            subskills {
-              name
-              percent
-            }
-          }
-          social {
-            service
-            url
-          }
-          summary
-        }
-      }
-    }
-  }
-`;
 
 export default Home;
