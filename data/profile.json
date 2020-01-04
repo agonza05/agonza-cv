@@ -90,7 +90,13 @@
     {
       "institution": "Middle East Technical University, Turkey",
       "degree": "Geological Engineering",
-      "start": "2014",
+      "start": "2013",
+      "end": "2006"
+    },
+    {
+      "institution": "Gazi University, Turkey",
+      "degree": "Industrial Engineering",
+      "start": "2002",
       "end": "2006"
     }
   ],
@@ -169,10 +175,5 @@
     }
   ],
   "fullname": "Baran Cezayirli",
-  "sidebar": [
-    {
-      "title": "Interests",
-      "items": ["Lego", "IoT", "Gaming"]
-    }
-  ]
+  "sidebar": []
 }

@@ -28,11 +28,12 @@ collections:
             name: social
             widget: list
             fields:
-              - { label: Service, name: service, widget: select, options: [linkedin, twitter, facebook, youtube, instagram, behance, github, dribbble, other]}
+              - { label: Service, name: service, widget: select, options: [linkedin, twitter, facebook, youtube, instagram, behance, github, dribbble]}
               - { label: URL, name: url, widget: string }
           - label: Experience
             name: experience
             widget: list
+            default: []
             fields:
               - { label: Role, name: role, widget: string }
               - { label: Company, name: company, widget: string }
@@ -42,6 +43,7 @@ collections:
           - label: Projects
             name: projects
             widget: list
+            default: []
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Company, name: company, widget: string }
@@ -61,6 +63,7 @@ collections:
                   - { label: Percent, name: percent, widget: number, required: false }
           - label: Education
             name: education
+            default: []
             widget: list
             fields:
               - { label: Institution, name: institution, widget: string }
@@ -70,6 +73,7 @@ collections:
           - label: "Sidebar lists"
             name: sidebar
             widget: list
+            default: []
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Items, name: items, widget: list, field: { label: item, name: item, widget: string } }
