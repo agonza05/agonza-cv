@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 
+.btn {
+    @apply text-xs font-bold py-1 px-2 rounded;
+}
+
+.btn-secondary {
+    @apply bg-secondary-500 text-white;
+}
+.btn-secondary:hover {
+    @apply bg-secondary-700
+}
+
 .contact-icon {
     @apply fill-current w-4 h-4 mr-4 text-secondary-500;
 }
@@ -11,6 +22,18 @@
 
 .contact-link:hover {
     @apply text-secondary-500;
+}
+
+.section-header {
+    @apply text-primary-500 text-xl border-l-4 border-primary-500 pl-3 font-bold;
+}
+
+.item-header {
+    @apply text-xl font-bold tracking-tight leading-relaxed text-neutral-700;
+}
+
+.item-sub {
+    @apply text-neutral-600 tracking-wide text-sm;
 }
 
 @tailwind utilities;

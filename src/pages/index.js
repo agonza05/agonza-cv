@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Header, Summary, Experience } from '../components';
+import { Header, Summary, Experience, Projects } from "../components"
 import '../main.css';
 
 const Home = ({ data }) => {
@@ -8,15 +8,18 @@ const Home = ({ data }) => {
   console.log(resume);
   return (
     <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
-      <div className="container mx-auto shadow bg-white p-6">
+      <div className="container mx-auto shadow bg-white py-5 px-10">
         <Header
           contacts={resume.contact}
           name={resume.fullname}
           role={resume.role}
         />
         <Summary data={resume.summary} />
-        <div className="my-5 lg:flex lg:w-2/3">
-          <Experience data={resume.experience} />
+        <div className="border-b border-neutral-300 pb-2 my-5 lg:flex">
+          <div className="lg:w-2/3">
+            <Experience data={resume.experience} />
+            <Projects data={resume.projects} />
+          </div>
         </div>
       </div>
     </main>

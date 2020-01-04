@@ -27,7 +27,7 @@ const Contact = ({ field, value }) => {
       {field === 'website' && (
         <>
           <GlobeIcon className="contact-icon" />
-          <a className="contact-link" target="_blank" href={value} title="website">
+          <a className="contact-link" target="_blank" href={value} rel="noopener noreferrer" title="website">
             Personal Site
           </a>
         </>
