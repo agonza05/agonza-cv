@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: barancezayirli/gatsby-resume-tailwind
+  repo: barancezayirli/gatsby-resume-tailwind #TODO replace this with your own repo
 
 media_folder: static/assets
 public_folder: assets
