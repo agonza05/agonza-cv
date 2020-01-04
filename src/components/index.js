@@ -6,3 +6,4 @@ export { default as Skills } from './skills';
 export { default as List } from './list';
 export { default as Education } from './education';
 export { default as Footer } from './footer';
+export { default as SEO } from './seo';
