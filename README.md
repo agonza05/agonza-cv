@@ -1,9 +1,9 @@
-# Gatsby Resume Tailwind Starter
+# Gatsby Starter Resume CMS
 
 ![resume-template](./preview.png "Gatsby resume template")
 
 
-Gatsby resume tailwind is a free starter template with  Netlify CMS as headless CMS. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.
+Gatsby Starter Resume CMS is a free starter template with  Netlify CMS as headless CMS. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.
 
 [Demo](https://gatsby-resume-starter.netlify.com/)
 
@@ -29,7 +29,7 @@ Use the Gatsby CLI to create a new site, specifying the resume starter.
 
 ```shell
 # create a new Gatsby site using the blog starter
-gatsby new my-resume https://github.com/barancezayirli/gatsby-resume-tailwind
+gatsby new my-resume https://github.com/barancezayirli/gatsby-starter-resume-cms
 ```
 
 ### Start developing
