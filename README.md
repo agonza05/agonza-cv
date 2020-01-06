@@ -20,7 +20,6 @@ Gatsby resume tailwind is a free starter template with  Netlify CMS as headless 
 - Basic SEO, site metadata
 - Prettier
 - Social media links
-- Custom widgets
 
 ## Quick Start
 
