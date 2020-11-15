@@ -7,6 +7,7 @@ import {
   Skills,
   List,
   Education,
+  Courses,
   Footer,
   SEO
 } from '../components';
