@@ -23,8 +23,7 @@ const Footer = ({ social }) => (
       >
         Alberto Gonzalez
       </a>
-    </div>
-    <div className="items-center flex tracking-wide mb-5 md:mb-0 justify-center text-sm ml-2">
+      <span className="inline-block mr-1">-</span>
       <span className="inline-block mr-1">
         Acknowledgments:
       </span>
