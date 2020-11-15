@@ -160,7 +160,7 @@
       ]
     }
   ],
-  "summary": "I am Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure. I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco Nexus switches, Cisco ASR routers, Cisco ASA firewalls, Meraki Access Points, Cisco Identity Service Engine, Cisco Application Centric Infrastructure, Juniper Pulse Secure SSLVPN and ExtraHop network visibility appliance. Feel free to download my up-to-date cv.",
+  "summary": "I am Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure. I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco switches, routers, firewalls, access points, among others.",
   "education": [
     {
       "institution": "Universidad Europea del Atlántico, Santander",
@@ -254,13 +254,5 @@
     }
   ],
   "role": "Network Engineer",
-  "projects": [
-    {
-      "name": "Gatsby resume starter",
-      "company": "Open source",
-      "description": "Gatsby resume tailwind is a free starter template with  Netlify CMS implementation. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.",
-      "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
-    }
-  ],
   "fullname": "Alberto Gonzalez"
 }
