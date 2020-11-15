@@ -19,7 +19,7 @@
           "percent": 95
         },
         {
-          "name": "Service Provider",
+          "name": "SP",
           "percent": 15
         },
         {
@@ -160,11 +160,11 @@
       ]
     }
   ],
-  "summary": "I am Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure.",
+  "summary": "I am Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure. I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco Nexus switches, Cisco ASR routers, Cisco ASA firewalls, Meraki Access Points, Cisco Identity Service Engine, Cisco Application Centric Infrastructure, Juniper Pulse Secure SSLVPN and ExtraHop network visibility appliance. Feel free to download my up-to-date cv.",
   "education": [
     {
       "institution": "Universidad Europea del Atlántico, Santander",
-      "degree": "Master in Business Administrator",
+      "degree": "Master of Business Administration",
       "start": "2016",
       "end": "2019"
     },
@@ -215,53 +215,32 @@
   ],
   "experience": [
     {
-      "role": "Consultant",
-      "company": "Baran Cezayirli Consulting",
-      "description": "I consult startups to take their concept to the next level.",
-      "start": "08/2018",
+      "role": "Network Administrator",
+      "company": "Wirecard",
+      "description": "I am responsible for managing and operating the network infrastructure, solving problems and faults to ensure defined service levels and monitoring network performance and security.",
+      "start": "09/2018",
       "end": ""
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Malaeb Limited",
-      "description": "Malaeb is a group sports community and booking platform. I was managing all technical aspects of the product. I designed a new solution to improve the current platform, build and manage a new development team to migrate the new app. Implement better internal processes to increase productivity.",
-      "start": "11/2018",
-      "end": "09/2019"
+      "role": "Network Support Specialist",
+      "company": "IBM",
+      "description": "I was responsible for the provision of network maintenance and support services, to both users of the systems and to service delivery functions.",
+      "start": "06/2016",
+      "end": "07/2018"
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Solve Care",
-      "description": "Solve care is a healthcare blockchain platform. I was responsible for the client side development team and architecture of the platform. I was also active in product management team.",
-      "start": "04/2018",
-      "end": "11/2018"
+      "role": "Systems and Network Administrator",
+      "company": "Modern Educational Centre",
+      "description": "I was responsible for maintaining and ensuring smooth operation of systems and IT equipment over different campuses.",
+      "start": "01/2013",
+      "end": "04/2015"
     },
     {
-      "role": "Full Stack Lead Developer",
-      "company": "Applied Blockchain",
-      "description": "Applied Blockchain built blockchain applications for enterprises and startups. I built 4 full stack blockchain projects during my contract.",
-      "start": "10/2017",
-      "end": "04/2018"
-    },
-    {
-      "role": "Full Stack Lead Developer",
-      "company": "Dmapper",
-      "description": "Worked as a lead full-stack developer for Cortex which is B2B audit automation software for Deloitte. I was responsible for the architecture and development of the platform, managing development team.",
-      "start": "12/2016",
-      "end": "10/2017"
-    },
-    {
-      "role": "Front End Developer - UI/UX Designer",
-      "company": "GovRight",
-      "description": "GovRight provides citizens the opportunity to understand and contribute to government and legislation. I was responsible for the UX and development of admin interface for the platform.",
-      "start": "11/2015",
-      "end": "04/2016"
-    },
-    {
-      "role": "Full Stack Developer",
-      "company": "Freelance",
-      "description": "In the first years of my career, I had the privilege to work with many startups and building my own games and applications.",
-      "start": "04/2008",
-      "end": "01/2016"
+      "role": "Project Engineer",
+      "company": "CANTV",
+      "description": "I was responsible for planning, coordinating and monitoring the team activities (operations, vendors, engineering, etc.) to achieve the project objectives on schedule.",
+      "start": "01/2009",
+      "end": "03/2012"
     }
   ],
   "social": [
