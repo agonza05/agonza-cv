@@ -141,6 +141,9 @@
         },
         {
           "name": "GitLab"
+        },
+        {
+          "name": "Jenkins"
         }
       ]
     },
@@ -160,16 +163,54 @@
   "summary": "Highly focused technologist with a multidisciplinary skill set honed over 10+ years in the IT industry. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With 10+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
   "education": [
     {
-      "institution": "Middle East Technical University, Turkey",
-      "degree": "Geological Engineering",
-      "start": "2013",
-      "end": "2006"
+      "institution": "Universidad Europea del Atlántico, Santander",
+      "degree": "Master in Business Administrator",
+      "start": "2016",
+      "end": "2019"
     },
     {
-      "institution": "Gazi University, Turkey",
-      "degree": "Industrial Engineering",
-      "start": "2002",
-      "end": "2006"
+      "institution": "Universidad Católica Andrés Bello, Caracas",
+      "degree": "Telecommunications Engineering",
+      "start": "2003",
+      "end": "2009"
+    }
+  ],
+  "courses": [
+    {
+      "institution": "Aviatrix",
+      "degree": "Aviatrix Multi-Cloud Networking and Security",
+      "date": "June 2020",
+      "hours": "24"
+    },
+    {
+      "institution": "Fast Lane Institute for Knowledge Transfer",
+      "degree": "Configuring Cisco Nexus 9000 Series Switches in ACI Mode (DCAC9K)",
+      "date": "May 2019",
+      "hours": "24"
+    },
+    {
+      "institution": "F5 University",
+      "degree": "Getting Started with F5 BIG-IP LTM",
+      "date": "Nov 2018",
+      "hours": "12"
+    },
+    {
+      "institution": "Palo Alto Networks",
+      "degree": "Palo Alto Firewall Essentials",
+      "date": "Oct 2018",
+      "hours": "14"
+    },
+    {
+      "institution": "IBM",
+      "degree": "VMware NSX Essentials",
+      "date": "Jul 2017",
+      "hours": "40"
+    },
+    {
+      "institution": "Axelos",
+      "degree": "ITIL v3 Foundation",
+      "date": "Sep 2016",
+      "hours": "40"
     }
   ],
   "experience": [
@@ -225,35 +266,15 @@
   ],
   "social": [
     {
-      "service": "youtube",
-      "url": "https://www.youtube.com/channel/UCczRc31u_YXNiSpYKxQU_Ug"
-    },
-    {
       "service": "linkedin",
-      "url": "https://www.linkedin.com/in/barancezayirli"
-    },
-    {
-      "service": "twitter",
-      "url": "https://twitter.com/barancezayirli"
-    },
-    {
-      "service": "angellist",
-      "url": "https://angel.co/baran-cezayirli"
+      "url": "https://www.linkedin.com/in/agonza05/"
     },
     {
       "service": "github",
-      "url": "https://github.com/barancezayirli"
-    },
-    {
-      "service": "facebook",
-      "url": "https://www.facebook.com/barancezayirli"
-    },
-    {
-      "service": "instagram",
-      "url": "https://www.instagram.com/barancezayirli"
+      "url": "https://github.com/agonza05"
     }
   ],
-  "role": "Technologist",
+  "role": "Network Engineer",
   "projects": [
     {
       "name": "Gatsby resume starter",
@@ -262,5 +283,5 @@
       "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
     }
   ],
-  "fullname": "Baran Cezayirli"
+  "fullname": "Alberto Gonzalez"
 }
