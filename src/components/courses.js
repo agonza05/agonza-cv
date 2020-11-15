@@ -16,4 +16,4 @@ const Courses = ({ data }) => (
   </section>
 );
 
-export default Education;
+export default Courses;
