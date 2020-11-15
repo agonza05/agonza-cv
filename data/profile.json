@@ -1,158 +1,128 @@
 {
   "contact": {
-    "phone": "+380 63 251 76 44",
-    "email": "contact@barancezayirli.com",
-    "website": "https://barancezayirli.com",
-    "location": "Kiev, Ukraine"
+    "phone": "+49 151 62979569",
+    "email": "gonzalez.alberto@outlook.com",
+    "website": "https://www.agonza.net",
+    "location": "Munich, Germany"
   },
   "skills": [
     {
-      "title": "General",
+      "title": "Domain",
       "type": "percent",
       "subskills": [
         {
-          "name": "Architecture",
-          "percent": 89
+          "name": "Data Center",
+          "percent": 80
         },
         {
-          "name": "Mobile/Web App Development",
+          "name": "Enterprise",
           "percent": 95
         },
         {
-          "name": "Product Management",
-          "percent": 85
+          "name": "Service Provider",
+          "percent": 15
         },
         {
-          "name": "Project Management",
-          "percent": 92
-        },
-        {
-          "name": "Game Development",
-          "percent": 70
-        },
-        {
-          "name": "Blockchain",
+          "name": "Security",
           "percent": 85
         },
         {
           "name": "Dev Ops",
-          "percent": 81
+          "percent": 60
         },
         {
-          "name": "Backend Development",
-          "percent": 93
-        },
-        {
-          "name": "Data Science",
-          "percent": 65
-        },
-        {
-          "name": "Artificial Intelligence",
-          "percent": 70
-        },
-        {
-          "name": "UX",
-          "percent": 80
+          "name": "Automation",
+          "percent": 75
         }
       ]
     },
     {
-      "title": "Languages",
+      "title": "Technologies",
       "type": "percent",
       "subskills": [
         {
-          "name": "Javascript",
-          "percent": 96
+          "name": "Switching",
+          "percent": 90
         },
         {
-          "name": "Java",
-          "percent": 82
+          "name": "Routing",
+          "percent": 80
         },
         {
-          "name": "Python",
-          "percent": 85
+          "name": "NAT",
+          "percent": 95
         },
         {
-          "name": "C#",
-          "percent": 74
+          "name": "vPC",
+          "percent": 70
         },
         {
-          "name": "Solidity",
-          "percent": 85
+          "name": "ACL",
+          "percent": 95
         },
         {
-          "name": "Dart",
-          "percent": 75
+          "name": "Load Balancing",
+          "percent": 90
         },
         {
-          "name": "Go",
-          "percent": 60
+          "name": "VPN",
+          "percent": 80
+        },
+        {
+          "name": "BGP",
+          "percent": 40
+        },
+        {
+          "name": "WiFi",
+          "percent": 70
         }
       ]
     },
     {
-      "title": "Frameworks",
+      "title": "Vendors",
       "type": "tag",
       "subskills": [
         {
-          "name": "React"
+          "name": "Cisco Catalyst"
         },
         {
-          "name": "Flutter"
+          "name": "Cisco Nexus"
         },
         {
-          "name": "React Native"
+          "name": "Cisco ASR"
         },
         {
-          "name": "Vue"
+          "name": "Cisco ACI"
         },
         {
-          "name": "Spring"
+          "name": "Cisco ISE"
         },
         {
-          "name": "Angular"
+          "name": "Cisco ASA"
         },
         {
-          "name": "Electron"
+          "name": "Palo Alto FW"
         },
         {
-          "name": "Node"
+          "name": "Palo Alto Panorama"
         },
         {
-          "name": "Flusk"
+          "name": "Palo Alto Global Protect"
         },
         {
-          "name": "Express"
+          "name": "F5 LTM"
         },
         {
-          "name": "Koa"
+          "name": "F5 DNS"
         },
         {
-          "name": "Gatsby"
+          "name": "F5 AS3"
         },
         {
-          "name": "Apollo"
+          "name": "Meraki"
         },
         {
-          "name": "Django"
-        },
-        {
-          "name": "Loopback"
-        },
-        {
-          "name": "Next"
-        },
-        {
-          "name": "Amplify"
-        },
-        {
-          "name": "Pixi"
-        },
-        {
-          "name": "Phaser"
-        },
-        {
-          "name": "Feathers"
+          "name": "Juniper Pulse Secure"
         }
       ]
     },
@@ -161,40 +131,28 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "Docker"
+          "name": "Git"
         },
         {
-          "name": "Jira"
+          "name": "Terraform"
         },
         {
-          "name": "Unity"
+          "name": "Ansible"
         },
         {
-          "name": "Godot"
-        },
-        {
-          "name": "Google Analytics"
+          "name": "GitLab"
         }
       ]
     },
     {
-      "title": "Databases",
+      "title": "Programming",
       "type": "tag",
       "subskills": [
         {
-          "name": "Postgresql"
+          "name": "Python"
         },
         {
-          "name": "Mongodb"
-        },
-        {
-          "name": "Parse"
-        },
-        {
-          "name": "Firebase"
-        },
-        {
-          "name": "Elastic Search"
+          "name": "Javascript"
         }
       ]
     }
