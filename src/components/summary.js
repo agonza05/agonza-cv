@@ -12,6 +12,7 @@ const Summary = ({ data }) => (
     <p className="text-center tracking-wide leading-relaxed lg:text-left lg:mx-8 lg:text-lg">
       {data}
     </p>
+    <br />
     <p className="text-center tracking-wide leading-relaxed lg:text-center lg:mx-8 lg:text-lg">
       <a target="_blank" rel="noopener noreferrer" className="tag" href="Alberto_Gonzalez_CV.docx">
         Download Resume
