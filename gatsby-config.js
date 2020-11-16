@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Alberto Gonzalez | Network Engineer`,
     author: `Alberto Gonzalez`,
-    description: `I am Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure. I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco switches, routers, firewalls, access points, among others.`,
+    description: `I am a Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure. I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco switches, routers, firewalls, access points, among others.`,
     siteUrl: `https://cv.agonza.net/`,
   },
   plugins: [
