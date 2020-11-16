@@ -23,9 +23,9 @@ const Footer = ({ social }) => (
       >
         Alberto Gonzalez
       </a>
-      <span className="inline-block mr-1">-</span>
+      <span className="inline-block mr-1"> </span>
       <span className="inline-block mr-1">
-        Acknowledgments:
+        - Acknowledgments:
       </span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
