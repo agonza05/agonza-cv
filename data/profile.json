@@ -12,27 +12,27 @@
       "subskills": [
         {
           "name": "Data Center",
-          "percent": 80
+          "percent": 90
         },
         {
           "name": "Enterprise",
-          "percent": 95
+          "percent": 100
         },
         {
           "name": "SP",
-          "percent": 15
+          "percent": 20
         },
         {
           "name": "Security",
-          "percent": 85
+          "percent": 90
         },
         {
           "name": "Dev Ops",
-          "percent": 60
+          "percent": 80
         },
         {
           "name": "Automation",
-          "percent": 75
+          "percent": 90
         }
       ]
     },
@@ -42,7 +42,7 @@
       "subskills": [
         {
           "name": "Switching",
-          "percent": 90
+          "percent": 100
         },
         {
           "name": "Routing",
@@ -50,7 +50,7 @@
         },
         {
           "name": "NAT",
-          "percent": 95
+          "percent": 100
         },
         {
           "name": "vPC",
@@ -58,7 +58,7 @@
         },
         {
           "name": "ACL",
-          "percent": 95
+          "percent": 100
         },
         {
           "name": "Load Balancing",
@@ -74,7 +74,7 @@
         },
         {
           "name": "WiFi",
-          "percent": 70
+          "percent": 80
         }
       ]
     },
@@ -101,7 +101,7 @@
           "name": "Cisco ASA"
         },
         {
-          "name": "Palo Alto FW"
+          "name": "Palo Alto NGFW"
         },
         {
           "name": "Palo Alto Panorama"
@@ -123,6 +123,9 @@
         },
         {
           "name": "Juniper Pulse Secure"
+        },
+        {
+          "name": "NetBox"
         }
       ]
     },
@@ -163,7 +166,7 @@
   "summary": "I am a Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure. I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco switches, routers, firewalls, access points, among others.",
   "education": [
     {
-      "institution": "Universidad Europea del Atlántico, Santander",
+      "institution": "Universidad Europea del Atlantico, Santander",
       "degree": "Master of Business Administration",
       "start": "2016",
       "end": "2019"
@@ -216,7 +219,7 @@
   "experience": [
     {
       "role": "Network Administrator",
-      "company": "Wirecard",
+      "company": "PagoNxt Merchant Solutions - Former Wirecard",
       "description": "I am responsible for managing and operating the network infrastructure, solving problems and faults to ensure defined service levels and monitoring network performance and security.",
       "start": "09/2018",
       "end": ""
