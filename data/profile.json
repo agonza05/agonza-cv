@@ -163,7 +163,7 @@
       ]
     }
   ],
-  "summary": "I am a Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure. I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco switches, routers, firewalls, access points, among others.",
+  "summary": "I am a Network Security Engineer with experience designing and managing multi-vendor environments, providing technical support to data center and campus networks, and developing cloud infrastructure services and solutions. I usually work installing, configuring and maintaining hardware devices that include Palo Alto, F5, Cisco, Arista, Meraki, among others, and creating code to automate the provisioning, testing and deployment of cloud infrastructure.",
   "education": [
     {
       "institution": "Universidad Europea del Atlantico, Santander",
@@ -218,11 +218,18 @@
   ],
   "experience": [
     {
+      "role": "Network & DevOps Engineer",
+      "company": "appliedAI Initiative GmbH",
+      "description": "I am responsible for managing the organization’s on-prem and cloud IT infrastructure, leading the development and implementation of IT solutions, technologies and architectures, and providing technical expertise on information security practices.",
+      "start": "07/2022",
+      "end": ""
+    },
+    {
       "role": "Network Administrator",
       "company": "PagoNxt Merchant Solutions - Former Wirecard",
       "description": "I am responsible for managing and operating the network infrastructure, solving problems and faults to ensure defined service levels and monitoring network performance and security.",
       "start": "09/2018",
-      "end": ""
+      "end": "07/2022"
     },
     {
       "role": "Network Support Specialist",
